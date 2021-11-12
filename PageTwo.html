@@ -13,34 +13,41 @@
 <nav>
     <li><a class="active" href="#home">Contacts</a></li>
     <li><a href="PageTwo.html">Create New Contact*</a></li>
-    <button type="newcontact" name="newcontact">New Contact</button>
     <li><a href="PageThree.html">Show Favourites</a></li>
 </nav>
 
-<form action="http://54.186.12.238:8000/horizontal/stabilizer-fish" method="GET">
-    <ul>
-     <li>
+<main>
+<img class="placeholder" src="placeholder.png">
+<form>
+   <ul>
+      <li>
         <label for="name"></label>
         <input type="text" id="name" name="name" placeholder="Contact Name">
-     </li>
+        <button type="button">+</button>
+      </li>
+
      <li>
         <label for="phone"></label>
         <input type="text" id="phone" name="phone" placeholder="Contact Phone">
+        <button type="button">+</button>
      </li>
+
      <li>
         <label for="address"></label>
         <input type="text" id="address" name="address" placeholder="Contact Address">
+        <button type="button">+</button>
      </li>
+
      <li>
         <label for="email"></label>
         <input type="text" id="email" name="email" placeholder="Contact Email">
+        <button type="button">+</button>
      </li>
-     <button type="save" name="save">Save Contact</button>
-     <button type="cancel" name="cancel">Cancel</button>
-    </ul>
+      <button type="submit" name="save">Save Contact</button>
+      <button type="reset" name="cancel">Cancel</button>
+   </ul>
 </form>
-
-
+</main>
 
     
 </body>
