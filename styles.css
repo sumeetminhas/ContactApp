@@ -2,6 +2,7 @@ body {
     background-color: #f2e9de;
 }
 nav {
+    font-family: Montserrat, sans serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,6 +40,13 @@ main {
     flex-direction: column;
 }
 
+.flex-item {
+    font-family: Montserrat, sans serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 img {
     border-radius: 50%;
     width: 100px;
@@ -66,7 +74,7 @@ ul li {
 .flex-container {
     display: flex;
     justify-content: center;
-
+    font-family: Montserrat, sans serif;
 }
 
 .flex-container > div {
