@@ -25,16 +25,16 @@ li a {
     text-decoration: none;
 }
   
-li a.active {
-    color: #191724;
+li a.home {
+    color: #232136;
     text-align: left;
     padding: 20px;
     font-size: 3rem;
 }
   
-li a:hover:not(.active) {
-    background-color: rgb(176, 164, 164);
-    color: #ebbcba;
+li a:hover:not(.home) {
+    background-color: #fffaf3;
+    color: #312f44;
 }
 
 main {
@@ -106,25 +106,25 @@ ul li {
 
 button[type=submit] {
     background-color: #9ccfd8;
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #fffaf3;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
     box-sizing: border-box;
-    text-decoration:none;
+    text-decoration: none;
     font-family:'Montserrat',sans-serif;
     font-weight:300;
-    text-align:center;
+    text-align: center;
     transition: all 0.2s;
 }
 
 button[type=submit]:hover {
-    background-color:#FFFFFF;
+    background-color:#fffaf3;
 }
 
-@media all and (max-width:30em){
-    button[type=submit]{
+@media all and (max-width:30em) {
+    button[type=submit] {
         display: block;
         margin: 0.4em auto;
 }}
@@ -133,7 +133,7 @@ button[type=reset] {
     background-color: #9893a5;
     display: inline-block;
     padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
+    border: 0.1em solid #fffaf3;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     box-sizing: border-box;
@@ -145,20 +145,20 @@ button[type=reset] {
 }
 
 button[type=reset]:hover {
-    background-color:#FFFFFF;
+    background-color:#fffaf3;
 }
 
-@media all and (max-width:30em){
-    button[type=reset]{
-        display:block;
-        margin:0.4em auto;
+@media all and (max-width:30em) {
+    button[type=reset] {
+        display: block;
+        margin: 0.4em auto;
 }}
 
 button[type=edit] {
     background-color: #9ccfd8;
     display: inline-block;
     padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
+    border: 0.1em solid #fffaf3;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     box-sizing: border-box;
@@ -171,39 +171,36 @@ button[type=edit] {
 
 button[type=edit]:hover {
     color: #9ccfd8;
-    background-color:#FFFFFF;
+    background-color:#fffaf3;
 }
 
-@media all and (max-width:30em){
-    button[type=edit]{
+@media all and (max-width:30em) {
+    button[type=edit] {
         display: block;
         margin: 0.4em auto;
 }}
 
 button[type=close] {
     background-color: #9893a5;
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #fffaf3;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
     box-sizing: border-box;
-    text-decoration:none;
+    text-decoration: none;
     font-family:'Montserrat',sans-serif;
     font-weight:300;
-    text-align:center;
+    text-align: center;
     transition: all 0.2s;
 }
 
 button[type=close]:hover {
-    background-color:#FFFFFF;
+    background-color: #fffaf3;
 }
 
-@media all and (max-width:30em){
-    button[type=close]{
+@media all and (max-width:30em) {
+    button[type=close] {
         display:block;
         margin:0.4em auto;
 }}
-
-
-
