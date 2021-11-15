@@ -9,12 +9,19 @@ nav {
     padding: 0;
     display: flex;
     flex-direction: column;
+    position: fixed;
     width: 20%;
     background-color: #9ccfd8;
     position: fixed;
     height: 100%;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+        position: relative;
+        width: 100%;
+}}
 
   
 li a {
